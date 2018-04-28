@@ -3,10 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>CARLA-SUPLEMENTOS</title>
+    <link rel="stylesheet" type="text/css"
+    href="C:\Users\Fellipe MM\Documents\workspaces\aprendendo-html\inicial\style.css">
     <link rel="stylesheet"
-    href=" C:/Users/Fellipe MM/OneDrive/Project/inicial/Style.css">
+    href="https://fonts.googleapis.com/css?family-Quicksand:500">
+    <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+      $(window).on ('scroll', function(){
+        if($(window).scrollTop()) {
+          $('nav').addClass('black');
+        }
+        else {
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
   </head>
   <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo">LOGO</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="active" href="#">Log In</a></li>
+        </ul>
+      </nav>
+      <section class="sec1"></section>
+      <section class="content">
+
+        <h1>Carla Suplementos</h1>
+     <h2>Sobre A Loja</h2>
     <p>A Carla Suplementos é uma empresa voltada ao fornecimento das melhores
     marcas de produtos suplementares. Com responsabilidade e dedicação,
     dando atenção aos demais tipos de objetivos corporal dos nossos
@@ -17,5 +47,7 @@
     e se reiventando com tudo de mas atual e eficar em produtos suplementares.
     Uma empresa que sempre vai pensar na sua saúde
     e na satisfação de sua conquista.</p>
-  </body>
+  </section>
+</div>
+</body>
 </html>
